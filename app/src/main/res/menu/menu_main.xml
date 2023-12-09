@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/email_share"
+        android:icon="@drawable/ic_mail"
+        android:title="邮件分享"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_message"
+        android:title="分享"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_switches"
+        android:title="开关"
+        android:icon="@drawable/ic_detail"
+        app:showAsAction="ifRoom
+"/>
+
+</menu>
